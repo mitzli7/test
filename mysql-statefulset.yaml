@@ -160,7 +160,7 @@ spec:
   - metadata:
       name: data
     spec:
-      storageClassName: storageclass
+      storageClassName: manual
       accessModes: ["ReadWriteOnce"]
       resources:
         requests:
